@@ -1,0 +1,18 @@
+/* #grid {
+	display: grid;
+	grid-template-columns: repeat(3, 25px);
+} */
+.item {
+	border: 1px solid darkgrey;
+	height: 25px;
+}
+.color-item {
+	border: 1px sold black;
+	height: 25px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.color-item:hover,
+.color-item-selected {
+	border: 2px solid black;
+}
